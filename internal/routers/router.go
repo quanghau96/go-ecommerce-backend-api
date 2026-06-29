@@ -1,9 +1,8 @@
 package routers
 
 import (
-	"net/http"
-
 	"github.com/gin-gonic/gin"
+	c "github.com/quanghau96/go-ecommerce-backend-api/internal/controller"
 )
 
 func NewRouter() *gin.Engine {
@@ -11,7 +10,8 @@ func NewRouter() *gin.Engine {
 
 	v1 := r.Group("/v1/2024")
 	{
-		v1.GET("/ping", Pong)
+		v1.GET("/ping", c.NewPongController().Pong)
+		v1.GET("/user/1", c.NewUserController().GetUserById)
 		// v1.PUT("/ping", Pong)
 		// v1.PATCH("/ping", Pong)
 		// v1.DELETE("/ping", Pong)
@@ -19,13 +19,5 @@ func NewRouter() *gin.Engine {
 		// v1.OPTIONS("/ping", Pong)
 	}
 
-	r.Run(":8002")
-
 	return r
-}
-
-func Pong(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{
-		"message": "ping...pong",
-	})
 }
