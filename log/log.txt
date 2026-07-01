@@ -1,2 +1,2 @@
-{"level":"INFO","time":"2026-06-30T15:46:29.553+0700","msg":"Info log","line":1}
-{"level":"ERROR","time":"2026-06-30T15:46:29.554+0700","msg":"Error log","line":2}
+{"level":"INFO","time":"2026-07-01T10:12:51.994+0700","msg":"Info log","line":1}
+{"level":"ERROR","time":"2026-07-01T10:12:51.995+0700","msg":"Error log","line":2}
