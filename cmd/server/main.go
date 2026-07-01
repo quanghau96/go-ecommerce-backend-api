@@ -1,11 +1,9 @@
 package main
 
 import (
-	"github.com/quanghau96/go-ecommerce-backend-api/internal/routers"
+	"github.com/quanghau96/go-ecommerce-backend-api/internal/initialize"
 )
 
 func main() {
-	r := routers.NewRouter()
-
-	r.Run(":8002")
+	initialize.Run()
 }
