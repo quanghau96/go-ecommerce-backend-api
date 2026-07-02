@@ -12,6 +12,7 @@ func Run() {
 	fmt.Println("global.Config.MySQL.Username: ", global.Config.MySql.Username)
 	// InitLogger()
 	InitLogger()
+	global.Logger.Info("Logger initialized successfully")
 	// InitMysql()
 	InitMysql()
 	// InitRedis()

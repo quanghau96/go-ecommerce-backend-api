@@ -1,0 +1,4 @@
+{"level":"INFO","time":"2026-07-02T11:34:46.021+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
+{"level":"INFO","time":"2026-07-02T11:35:57.698+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
+{"level":"INFO","time":"2026-07-02T11:40:34.663+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
+{"level":"INFO","time":"2026-07-02T11:42:21.609+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
