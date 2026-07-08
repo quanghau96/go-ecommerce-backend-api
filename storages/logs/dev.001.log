@@ -2,3 +2,15 @@
 {"level":"INFO","time":"2026-07-02T11:35:57.698+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
 {"level":"INFO","time":"2026-07-02T11:40:34.663+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
 {"level":"INFO","time":"2026-07-02T11:42:21.609+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
+{"level":"INFO","time":"2026-07-03T23:33:38.866+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
+{"level":"ERROR","time":"2026-07-03T23:33:38.932+0700","caller":"initialize/mysql.go:15","msg":"Failed to connect to database","error":"Error 1045 (28000): Access denied for user 'mysql'@'192.168.65.1' (using password: YES)","stacktrace":"github.com/quanghau96/go-ecommerce-backend-api/internal/initialize.checkErrorPanic\n\t/Users/hauvo/Documents/study/go-ecommerce-backend-api/internal/initialize/mysql.go:15\ngithub.com/quanghau96/go-ecommerce-backend-api/internal/initialize.InitMysql\n\t/Users/hauvo/Documents/study/go-ecommerce-backend-api/internal/initialize/mysql.go:28\ngithub.com/quanghau96/go-ecommerce-backend-api/internal/initialize.Run\n\t/Users/hauvo/Documents/study/go-ecommerce-backend-api/internal/initialize/run.go:17\nmain.main\n\t/Users/hauvo/Documents/study/go-ecommerce-backend-api/cmd/server/main.go:8\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:290"}
+{"level":"INFO","time":"2026-07-03T23:37:13.234+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
+{"level":"INFO","time":"2026-07-03T23:37:13.254+0700","caller":"initialize/mysql.go:30","msg":"Database connection established successfully"}
+{"level":"INFO","time":"2026-07-03T23:38:29.734+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
+{"level":"INFO","time":"2026-07-03T23:38:29.743+0700","caller":"initialize/mysql.go:30","msg":"Database connection established successfully"}
+{"level":"INFO","time":"2026-07-03T23:40:37.680+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
+{"level":"INFO","time":"2026-07-03T23:40:37.695+0700","caller":"initialize/mysql.go:30","msg":"Database connection established successfully"}
+{"level":"INFO","time":"2026-07-03T23:47:47.013+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
+{"level":"INFO","time":"2026-07-03T23:47:47.023+0700","caller":"initialize/mysql.go:31","msg":"Database connection established successfully"}
+{"level":"INFO","time":"2026-07-03T23:47:56.680+0700","caller":"initialize/run.go:15","msg":"Logger initialized successfully"}
+{"level":"INFO","time":"2026-07-03T23:47:56.689+0700","caller":"initialize/mysql.go:31","msg":"Database connection established successfully"}
